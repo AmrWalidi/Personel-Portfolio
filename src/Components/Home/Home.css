@@ -276,7 +276,7 @@ nav a:hover p {
     .intro p {
         width: 70vw;
         font-size: 3vw;
-        text-align: center;
+        text-align:justify;
     }
 
     .social-media {
