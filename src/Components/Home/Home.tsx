@@ -4,8 +4,8 @@ import ProfileImage from "./ProfileImage";
 function Home() {
   return (
     <div id="home">
-        <Introduction />
-        <ProfileImage />
+      <Introduction />
+      <ProfileImage />
     </div>
   );
 }

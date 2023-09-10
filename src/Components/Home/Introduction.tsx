@@ -21,7 +21,7 @@ function Introduction() {
       setCurrentProfession(profession.slice(0, currentProfession.length + 1));
     }, 100);
   }
-  useEffect(professionLoop, [currentProfession,profession]);
+  useEffect(professionLoop, [currentProfession, profession]);
   return (
     <div className="intro">
       <div className="name">i'm amr walidi</div>

@@ -8,7 +8,7 @@ interface iconList {
   icon: IconProp;
 }
 
-function SocialMediaIcon({link, target, backgroundColor, icon }: iconList) {
+function SocialMediaIcon({ link, target, backgroundColor, icon }: iconList) {
   return (
     <a href={link} target={target}>
       <div

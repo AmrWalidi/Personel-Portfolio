@@ -18,7 +18,7 @@ function MenuLink({ onClick, btnStyle, link, icon, selectedLink }: iconList) {
       style={selectedLink || link == "" ? { opacity: "1" } : { opacity: "0" }}
     >
       <div className="icon-container">
-          <FontAwesomeIcon className="menu-icon" icon={icon} />
+        <FontAwesomeIcon className="menu-icon" icon={icon} />
         {link !== "" && <p>{link}</p>}
       </div>
     </a>
