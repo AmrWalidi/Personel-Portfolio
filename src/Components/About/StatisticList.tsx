@@ -1,5 +1,5 @@
 import { Stats } from "../../Data/index";
-import Statistic from "./statistic";
+import Statistic from "./Statistic";
 
 function StatisticList() {
   return (
