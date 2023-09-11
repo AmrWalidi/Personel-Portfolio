@@ -5,8 +5,8 @@ interface infoProp {
 
 function Info({ label, text }: infoProp) {
   return (
-    <div>
-      <label>{label + ": "}</label>
+    <div className="info">
+      <label>{label + " : "}</label>
       <p>{text}</p>
     </div>
   );

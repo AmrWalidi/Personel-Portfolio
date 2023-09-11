@@ -6,8 +6,10 @@ function About() {
   return (
     <div id="about">
       <Header backgroundText="About me" title="Who am i ?" />
-      <PersonelInfo />
-      <StatisticList />
+      <div className="infos-stats">
+        <PersonelInfo />
+        <StatisticList />
+      </div>
       <SkillList />
     </div>
   );

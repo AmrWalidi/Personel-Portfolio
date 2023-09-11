@@ -70,6 +70,7 @@ nav a:hover p {
 
 .header{
     position: relative;
+    margin-bottom: 100px;
 }
 
 .background-text{
@@ -194,12 +195,12 @@ nav a:hover p {
         margin-left: 0;
     }
     .background-text{
-        font-size: 48px;
+        font-size: 64px;
         text-shadow: 1px 1px 1px rgb(167, 167, 167,0.15);
     }
     
     .title{
-        font-size: 20px;
+        font-size: 25px;
         text-shadow: 1px 1px 1px #141414;
     }
     

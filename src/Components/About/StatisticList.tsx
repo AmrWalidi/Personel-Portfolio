@@ -3,7 +3,7 @@ import Statistic from "./Statistic";
 
 function StatisticList() {
   return (
-    <div>
+    <div className="stat-group">
       {Stats.map((stat) => (
         <Statistic key={stat.context} num={stat.num} context={stat.context} />
       ))}

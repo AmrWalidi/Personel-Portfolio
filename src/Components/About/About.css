@@ -1,0 +1,270 @@
+#about {
+    margin: 56px 111px;
+}
+
+.infos-stats {
+    display: flex;
+    justify-content: space-between;
+}
+
+.peresonel-infos {
+    width: 660px;
+    height: 330px;
+    display: flex;
+    flex-direction: column;
+}
+
+.section-title {
+    font-size: 36px;
+    font-weight: 900;
+    color: #141414;
+    text-shadow: 1px 1px 1px #141414;
+    text-transform: uppercase;
+    margin-top: 0;
+}
+
+.info-group {
+    display: flex;
+    gap: 35px 136px;
+    flex-wrap: wrap;
+    width: 383px;
+}
+
+.info {
+    width: 123px;
+    white-space: nowrap;
+}
+
+.info label {
+    color: #6A6A6A;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.info p {
+    display: inline-block;
+    color: #D74242;
+    font-size: 20px;
+    font-weight: 600;
+    margin: 0;
+}
+
+.stat-group {
+    display: flex;
+    gap: 30px 20px;
+    width: 510px;
+    flex-wrap: wrap;
+}
+
+.stat-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 240px;
+    height: 165px;
+    background-color: rgb(222, 222, 222, 0.27);
+}
+
+.stat-number {
+    font-size: 48px;
+    color: #FF3636;
+    font-weight: 900;
+    text-shadow: 1px 1px 1px #FF3636;
+    margin-left: 25px;
+}
+
+.stat-content {
+    font-size: 24px;
+    margin-left: 90px;
+}
+
+.skills-section {
+    margin-top: 75px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.divider {
+    width: 650px;
+    height: 2px;
+    background-color: #6A6A6A;
+    margin-bottom: 60px;
+}
+
+.skill-group {
+    display: flex;
+    justify-content: space-between;
+    gap: 55px 135px;
+    width: 1245px;
+    margin-top: 70px;
+    flex-wrap: wrap;
+}
+
+.skill-percent-group {
+    display: flex;
+    justify-content: space-between;
+    width: 555px;
+    font-size: 26px;
+    font-family: 600;
+    color: #141414;
+    text-shadow: 1px 1px 1px #141414;
+}
+
+.progress-bar {
+    width: 555px;
+    height: 10px;
+    background-color: #D9D9D9;
+    border-radius: 10px;
+}
+
+.progress-bar-filler {
+    background-color: #FF3636;
+    border-radius: 10px;
+    height: 10px;
+}
+
+@media screen and (max-width:900px) {
+    #about {
+        margin: 10px 85px;
+    }
+
+    .infos-stats {
+        flex-direction: column;
+        gap: 100px;
+    }
+
+    .peresonel-infos {
+        width: 610px;
+        height: 300px;
+    }
+
+    .section-title {
+        font-size: 30px;
+    }
+
+    .info-group {
+        gap: 35px 136px;
+        width: fit-content;
+        margin-top: 30px;
+    }
+
+    .info {
+        width: 123px;
+        white-space: nowrap;
+    }
+
+    .info label {
+        font-size: 20px;
+    }
+
+    .stat-group {
+        gap: 20px 50px;
+        width: 553px;
+    }
+
+    .stat-container {
+        width: 250px;
+        height: 180px;
+    }
+
+    .stat-number {
+        font-size: 50px;
+    }
+
+    .divider {
+        width: 335px;
+    }
+
+    .skill-group {
+        gap: 54px 57px;
+        width: 653px;
+    }
+
+    .skill-percent-group {
+        width: 285px;
+        font-size: 22px;
+    }
+
+    .progress-bar {
+        width: 285px;
+        height: 5px;
+    }
+
+    .progress-bar-filler {
+        height: 5px;
+    }
+}
+
+@media screen and (max-width:500px) {
+    #about {
+        margin: 40px 35px;
+    }
+
+    .infos-stats {
+        align-items: center;
+        gap: 100px;
+    }
+
+    .peresonel-infos {
+        align-items: center;
+        width: 275px;
+    }
+
+    .section-title {
+        font-size: 20px;
+    }
+
+    .info-group {
+        gap: 43px 23px;
+    }
+
+    .info {
+        width: 123px;
+    }
+
+    .info label {
+        font-size: 14px;
+    }
+
+    .info p {
+        display: block;
+        font-size: 13px;
+        font-weight: 600;
+    }
+
+    .stat-group {
+        gap: 16px 20px;
+        width: 310px;
+        margin-top: 50px;
+    }
+
+    .stat-container {
+        width: 145px;
+        height: 110px;
+    }
+
+    .stat-number {
+        font-size: 32px;
+    }
+
+    .stat-content {
+        font-size: 14px;
+        margin-left: 53px;
+    }
+
+    .divider {
+        width: 200px;
+        margin-bottom: 40px;
+    }
+
+    .skill-group {
+        flex-direction: column;
+        width: fit-content;
+        margin-top: 50px;
+    }
+
+    .skill-percent-group {
+        font-size: 16px;
+    }
+}

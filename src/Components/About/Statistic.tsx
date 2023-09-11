@@ -5,9 +5,9 @@ interface statsProp {
 
 function Statistic({ num, context }: statsProp) {
   return (
-    <div>
-      <div>{num}</div>
-      <div>{context}</div>
+    <div className="stat-container">
+      <div className="stat-number">{num}</div>
+      <div className="stat-content">{context}</div>
     </div>
   );
 }

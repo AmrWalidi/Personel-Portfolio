@@ -6,12 +6,12 @@ interface skillProp {
 function SkillProgressBars({ skill, percent }: skillProp) {
   return (
     <div>
-      <div>
+      <div className="skill-percent-group">
         <p>{skill}</p>
         <p>{percent + "%"}</p>
       </div>
-      <div>
-        <div></div>
+      <div className="progress-bar">
+        <div style={{width: percent+"%"}} className="progress-bar-filler"></div>
       </div>
     </div>
   );
