@@ -43,7 +43,7 @@ export const Infos:InfoObj[] = [
     },
     {
         label:"Phone",
-        text: "+905369922950",
+        text: "+90 536 992 29 50",
     },
     {
         label:"Age",
