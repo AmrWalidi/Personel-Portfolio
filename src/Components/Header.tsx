@@ -5,9 +5,9 @@ interface headerProp {
 
 function Header({ backgroundText, title }: headerProp) {
   return (
-    <div>
-      <div>{backgroundText}</div>
-      <h3>{title}</h3>
+    <div className="header">
+      <div className="background-text">{backgroundText}</div>
+      <h3 className="title">{title}</h3>
     </div>
   );
 }

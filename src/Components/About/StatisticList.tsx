@@ -5,7 +5,7 @@ function StatisticList() {
   return (
     <div>
       {Stats.map((stat) => (
-        <Statistic num={stat.num} context={stat.context} />
+        <Statistic key={stat.context} num={stat.num} context={stat.context} />
       ))}
     </div>
   );

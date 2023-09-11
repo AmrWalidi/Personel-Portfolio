@@ -6,7 +6,7 @@ function SkillList() {
       <div></div>
       <h2>Skills</h2>
       {skills.map((skill) => (
-        <SkillProgressBars percent={skill.percentage} skill={skill.name} />
+        <SkillProgressBars key={skill.name} percent={skill.percentage} skill={skill.name} />
       ))}
     </div>
   );

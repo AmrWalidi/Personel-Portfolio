@@ -5,7 +5,7 @@ function PersonelInfo() {
     <div>
       <h2>Personel Info</h2>
       {Infos.map((info) => (
-        <Info label={info.label} text={info.text} />
+        <Info key={info.label} label={info.label} text={info.text} />
       ))}
     </div>
   );
