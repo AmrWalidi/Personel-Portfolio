@@ -8,7 +8,7 @@
 
 .name {
     color: white;
-    font-size: 4vw;
+    font-size: 4.55vw;
     font-weight: 600;
     text-transform: uppercase;
 }
@@ -17,7 +17,7 @@
     display: flex;
     align-items: center;
     color: #FF0707;
-    font-size: 4vw;
+    font-size: 4.55vw;
     font-weight: 600;
     text-transform: uppercase;
 
@@ -25,17 +25,17 @@
 
 .profession::after {
     content: "";
-    width: 0.7vw;
-    height: 6vw;
+    width: 0.65vw;
+    height: 7vw;
     margin-left: 5px;
     background-color: #FF0707;
 }
 
 .intro p {
-    width: 34vw;
+    width: 40.56vw;
     color: white;
-    font-size: 1vw;
-
+    font-size: 1.56vw;
+    margin-right: 0;
 }
 
 .social-media {
@@ -140,62 +140,65 @@
     }
 
     .intro {
-        width: 73vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
 
     .name {
         display: flex;
         justify-content: center;
-        font-size: 8vw;
+        font-size: 7.77vw;
     }
 
     .profession {
         height: fit-content;
         justify-content: center;
-        font-size: 9vw;
+        font-size: 7.77vw;
     }
 
     .profession::after {
         content: "";
-        width: 1.5vw;
-        height: 14vw;
+        width: 1.11vw;
+        height: 11.66vw;
     }
 
     .intro p {
-        width: 70vw;
-        font-size: 3vw;
+        width: 67.78vw;
+        font-size: 2.66vw;
         text-align: justify;
     }
 
     .social-media {
         justify-content: space-around;
-        margin-top: 30px;
-        padding-bottom: 100px;
+        margin-top: 3.33vw;
+        padding-bottom: 11.11vw;
+        gap: 4.44vw;
     }
 
     .follow-me {
-        width: 25vw;
+        width: 22.66vw;
         height: 8vw;
-        gap: 3vw;
+        gap: 2vw;
     }
 
     .follow-me p {
         width: fit-content;
-        font-size: 2vw;
+        font-size: 2.22vw;
     }
 
     .arrow {
-        font-size: 3vw;
+        font-size: 2.66vw;
     }
 
     .social-media .icons-group {
-        gap: 22px;
+        gap: 2.44vw;
     }
 
     .icon-container {
         gap: 2vw;
-        width: 7vw;
-        height: 7vw;
+        width: 6.66vw;
+        height: 6.66vw;
     }
 
     .brand-icon {
@@ -223,66 +226,61 @@
         padding-top: 85px;
     }
 
-    .intro {
-        width: 73vw;
-    }
-
     .name {
-        font-size: 8vw;
+        font-size: 7.2vw;
     }
 
     .profession {
         height: fit-content;
         justify-content: center;
-        font-size: 9vw;
+        font-size: 7.2vw;
     }
 
     .profession::after {
         content: "";
-        width: 1.5vw;
-        height: 14vw;
+        width: 1.4vw;
+        height: 11vw;
     }
 
     .intro p {
-        width: 70vw;
-        font-size: 3.5vw;
+        width: 66vw;
+        font-size: 3.2vw;
     }
 
     .social-media {
-        justify-content: space-around;
-        margin-top: 30px;
+        margin-top: 6vw;
         padding-top: 5vw;
-        padding-bottom: 100px;
+        padding-bottom: 20vw;
         width: fit-content;
     }
 
     .follow-me {
-        width: 30vw;
-        height: 10vw;
-        gap: 3vw;
+        width: 26vw;
+        height: 8vw;
+        gap: 2vw;
     }
 
     .follow-me p {
         width: fit-content;
-        font-size: 3vw;
+        font-size: 2.4vw;
     }
 
     .arrow {
-        font-size: 3.5vw;
+        font-size: 3vw;
     }
 
     .social-media .icons-group {
-        gap: 15px;
+        gap: 3vw;
     }
 
     .icon-container {
-        gap: 2vw;
-        width: 10vw;
-        height: 10vw;
+        gap: 2.4vw;
+        width: 8vw;
+        height: 8vw;
     }
 
     .brand-icon {
-        font-size: 5.5vw;
+        font-size: 5vw;
     }
 
     .profile-image {

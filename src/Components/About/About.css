@@ -1,5 +1,5 @@
 #about {
-    margin: 56px 111px;
+    margin: 3.64vw 7.23vw;
 }
 
 .infos-stats {
@@ -8,14 +8,13 @@
 }
 
 .peresonel-infos {
-    width: 660px;
-    height: 330px;
     display: flex;
     flex-direction: column;
+    width: 42.97vw;
 }
 
 .section-title {
-    font-size: 36px;
+    font-size: 2.34vw;
     font-weight: 900;
     color: #141414;
     text-shadow: 1px 1px 1px #141414;
@@ -25,34 +24,34 @@
 
 .info-group {
     display: flex;
-    gap: 35px 136px;
+    gap: 2.28vw 8.85vw;
     flex-wrap: wrap;
-    width: 383px;
+    width: 24.93vw;
 }
 
 .info {
-    width: 123px;
+    width: 8vw;
     white-space: nowrap;
 }
 
 .info label {
     color: #6A6A6A;
-    font-size: 22px;
+    font-size: 1.43vw;
     font-weight: 600;
 }
 
 .info p {
     display: inline-block;
     color: #D74242;
-    font-size: 20px;
+    font-size: 1.3vw;
     font-weight: 600;
     margin: 0;
 }
 
 .stat-group {
     display: flex;
-    gap: 30px 20px;
-    width: 510px;
+    gap: 1.95vw 1.3vw;
+    width: 33.2vw;
     flex-wrap: wrap;
 }
 
@@ -60,210 +59,222 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 240px;
-    height: 165px;
+    width: 15.62vw;
+    height: 10.74vw;
     background-color: rgb(222, 222, 222, 0.27);
 }
 
 .stat-number {
-    font-size: 48px;
+    font-size: 3.12vw;
     color: #FF3636;
     font-weight: 900;
     text-shadow: 1px 1px 1px #FF3636;
-    margin-left: 25px;
+    margin-left: 1.63vw;
 }
 
 .stat-content {
-    font-size: 24px;
-    margin-left: 90px;
+    font-size: 1.56vw;
+    margin-left: 5.86vw;
 }
 
 .skills-section {
-    margin-top: 75px;
+    margin-top: 4.88vw;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
 .divider {
-    width: 650px;
-    height: 2px;
+    width: 42.32vw;
+    height: 0.13vw;
     background-color: #6A6A6A;
-    margin-bottom: 60px;
+    margin-bottom: 3.9vw;
 }
 
 .skill-group {
     display: flex;
     justify-content: space-between;
-    gap: 55px 135px;
-    width: 1245px;
-    margin-top: 70px;
+    gap: 3.58vw 8.79vw;
+    width: 81.05vw;
+    margin-top: 4.56vw;
     flex-wrap: wrap;
 }
 
 .skill-percent-group {
     display: flex;
     justify-content: space-between;
-    width: 555px;
-    font-size: 26px;
+    font-size: 1.69vw;
     font-family: 600;
     color: #141414;
 }
 
 .progress-bar {
-    width: 555px;
-    height: 10px;
+    width: 36.13vw;
+    height: 0.65vw;
     background-color: #D9D9D9;
-    border-radius: 10px;
+    border-radius: 0.65vw;
 }
 
 .progress-bar-filler {
     background-color: #FF3636;
-    border-radius: 10px;
-    height: 10px;
+    border-radius: 0.65vw;
+    height: 0.65vw;
 }
 
 @media screen and (max-width:900px) {
     #about {
-        margin: 10px 85px;
+        margin: 1.11vw 9.44vw;
     }
 
     .infos-stats {
         flex-direction: column;
-        gap: 100px;
+        align-items: center;
+        gap: 11.11vw;
     }
 
     .peresonel-infos {
-        width: 610px;
-        height: 300px;
+        width: 67.78vw;
     }
 
     .section-title {
-        font-size: 30px;
+        font-size: 3.33vw;
     }
 
     .info-group {
-        gap: 35px 136px;
+        gap: 3.89vw 15.11vw;
         width: fit-content;
-        margin-top: 30px;
+        margin-top: 3.33vw;
     }
 
     .info {
-        width: 123px;
-        white-space: nowrap;
+        width: 13.66vw;
     }
 
     .info label {
-        font-size: 20px;
+        font-size: 2.22vw;
+    }
+
+    .info p {
+        font-size: 2.11vw;
     }
 
     .stat-group {
-        gap: 20px 50px;
-        width: 553px;
+        gap: 2.22vw 5.55vw;
+        width: 61.44vw;
     }
 
     .stat-container {
-        width: 250px;
-        height: 180px;
+        width: 27.77vw;
+        height: 20vw;
     }
 
     .stat-number {
-        font-size: 50px;
+        font-size: 5.55vw;
+    }
+
+    .stat-content {
+        font-size: 2.66vw;
     }
 
     .divider {
-        width: 335px;
+        width: 37.22vw;
     }
 
     .skill-group {
-        gap: 54px 57px;
-        width: 653px;
+        gap: 6vw 6.33vw;
+        width: 72.55vw;
     }
 
     .skill-percent-group {
-        width: 285px;
-        font-size: 22px;
+        font-size: 2.44vw;
     }
 
     .progress-bar {
-        width: 285px;
-        height: 5px;
+        width: 31.66vw;
+        height: 0.55vw;
     }
 
     .progress-bar-filler {
-        height: 5px;
+        height: 0.55vw;
     }
 }
 
 @media screen and (max-width:500px) {
     #about {
-        margin: 40px 35px;
+        margin: 8vw 7vw;
     }
 
     .infos-stats {
-        align-items: center;
-        gap: 100px;
+        gap: 5vw;
     }
 
     .peresonel-infos {
         align-items: center;
-        width: 275px;
+        width: 55vw;
     }
 
     .section-title {
-        font-size: 20px;
+        font-size: 4vw;
     }
 
     .info-group {
-        gap: 43px 23px;
+        gap: 8.6vw 4.6vw;
     }
 
     .info {
-        width: 123px;
+        width: 24.6vw;
     }
 
     .info label {
-        font-size: 14px;
+        font-size: 2.8vw;
     }
 
     .info p {
         display: block;
-        font-size: 13px;
-        font-weight: 600;
+        font-size: 2.6vw;
     }
 
     .stat-group {
-        gap: 16px 20px;
-        width: 310px;
-        margin-top: 50px;
+        gap: 3.2vw 4vw;
+        width: 62vw;
+        margin: 10vw 0;
     }
 
     .stat-container {
-        width: 145px;
-        height: 110px;
+        width: 29vw;
+        height: 22vw;
     }
 
     .stat-number {
-        font-size: 32px;
+        font-size: 6.4vw;
     }
 
     .stat-content {
-        font-size: 14px;
-        margin-left: 53px;
+        font-size: 2.8vw;
+        margin-left: 10.6vw;
     }
 
     .divider {
-        width: 200px;
-        margin-bottom: 40px;
+        width: 40vw;
+        margin-bottom: 8vw;
     }
 
     .skill-group {
         flex-direction: column;
         width: fit-content;
-        margin-top: 50px;
+        margin-top: 10vw;
     }
 
     .skill-percent-group {
-        font-size: 16px;
+        font-size: 3.2vw;
+    }
+
+    .progress-bar {
+        width: 57vw;
+        height: 1vw;
+    }
+
+    .progress-bar-filler {
+        height: 1vw;
     }
 }
