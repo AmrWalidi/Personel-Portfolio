@@ -1,23 +1,23 @@
 interface StatObj{
-    num: number,
+    statsNum: number,
     context:string,
 }
 
 export const Stats:StatObj[] = [
     {
-        num:2,
+        statsNum:2,
         context: "Years of Experience"
     },
     {
-        num:30,
+        statsNum:30,
         context: "Completed Projects"
     },
     {
-        num:20,
+        statsNum:20,
         context: "Happy Costumers"
     },
     {
-        num:5,
+        statsNum:5,
         context: "Certificates"
     },
 
