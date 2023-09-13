@@ -213,7 +213,7 @@
 
 @media screen and (max-width:500px) {
     #about {
-        margin: 8vw 7vw;
+        margin: 8vw 6.8vw;
     }
 
     .infos-stats {
@@ -222,7 +222,7 @@
 
     .peresonel-infos {
         align-items: center;
-        width: 55vw;
+        width: 60vw;
     }
 
     .section-title {
