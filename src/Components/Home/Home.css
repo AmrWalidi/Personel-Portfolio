@@ -263,6 +263,7 @@
     .follow-me p {
         width: fit-content;
         font-size: 2.67vw;
+        margin: 0;
     }
 
     .arrow {
