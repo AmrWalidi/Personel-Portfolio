@@ -25,7 +25,7 @@ function Statistic({ statsNum, context }: statsProp) {
         if (counter != statsNum) setCounter(counter + 1);
       }, 50);
     }
-  }, [isScrolled, counter]);
+  });
 
   return (
     <div className="stat-container">
