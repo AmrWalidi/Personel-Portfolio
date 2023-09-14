@@ -211,86 +211,87 @@
     }
 }
 
-@media screen and (max-width:500px) {
+@media screen and (max-width:450px) {
     #about {
-        margin: 8vw 6.8vw;
+        margin: 8vw 6.67vw;
     }
 
     .infos-stats {
-        gap: 5vw;
+        gap: 12.44vw;
     }
 
     .peresonel-infos {
         align-items: center;
-        width: 60vw;
+        width: 73.33vw;
     }
 
     .section-title {
-        font-size: 4vw;
+        font-size: 4.44vw;
     }
 
     .info-group {
         gap: 8.6vw 4.6vw;
+        justify-content: space-around;
     }
 
     .info {
-        width: 24.6vw;
+        width: 28vw;
     }
 
     .info label {
-        font-size: 2.8vw;
+        font-size: 3.11vw;
     }
 
     .info p {
         display: block;
-        font-size: 2.6vw;
+        font-size: 2.89vw;
     }
 
     .stat-group {
-        gap: 3.2vw 4vw;
-        width: 62vw;
-        margin: 10vw 0;
+        gap: 3.56vw 4.67vw;
+        width: 69.11vw;
+        margin: 0;
     }
 
     .stat-container {
-        width: 29vw;
-        height: 22vw;
+        width: 32.22vw;
+        height: 24.44vw;
     }
 
     .stat-number {
-        font-size: 6.4vw;
+        font-size: 7.11vw;
     }
 
     .stat-number span{
-        font-size: 5.6vw;
+        font-size: 6.22vw;
     }
 
     .stat-content {
-        font-size: 2.8vw;
-        margin-left: 10.6vw;
+        font-size: 3.11vw;
+        margin-left: 11.78vw;
     }
 
     .divider {
-        width: 40vw;
-        margin-bottom: 8vw;
+        width: 48.44vw;
+        margin-bottom: 6.22vw;
     }
 
     .skill-group {
         flex-direction: column;
         width: fit-content;
-        margin-top: 10vw;
+        margin-top: 15.55vw;
     }
 
     .skill-percent-group {
-        font-size: 3.2vw;
+        font-size: 3.56vw;
     }
 
     .progress-bar {
-        width: 57vw;
-        height: 1vw;
+        width: 63.33vw;
+        height: 1.11vw;
     }
 
     .progress-bar-filler {
-        height: 1vw;
+        height: 1.11vw;
     }
 }
