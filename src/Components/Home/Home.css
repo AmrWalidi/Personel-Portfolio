@@ -219,67 +219,66 @@
     }
 }
 
-@media screen and (max-width:500px) {
+@media screen and (max-width:450px) {
     #home {
         padding-left: 0;
         padding-top: 85px;
     }
 
     .name {
-        font-size: 7.2vw;
+        font-size: 8vw;
     }
 
     .profession {
         height: fit-content;
         justify-content: center;
-        font-size: 7.2vw;
+        font-size: 8vw;
     }
 
     .profession::after {
         content: "";
-        width: 1.4vw;
-        height: 11vw;
+        width: 1.55vw;
+        height: 13.33vw;
     }
 
     .intro p {
-        width: 66vw;
-        font-size: 3.2vw;
+        width: 73.78vw;
+        font-size: 3.56vw;
     }
 
     .social-media {
-        margin-top: 6vw;
-        padding-top: 5vw;
-        padding-bottom: 20vw;
+        margin-top: 6.66vw;
+        padding-bottom: 22.22vw;
         width: fit-content;
     }
 
     .follow-me {
-        width: 26vw;
-        height: 8vw;
+        width: 28.89vw;
+        height: 8.89vw;
         gap: 2vw;
     }
 
     .follow-me p {
         width: fit-content;
-        font-size: 2.4vw;
+        font-size: 2.67vw;
     }
 
     .arrow {
-        font-size: 3vw;
+        font-size: 3.33vw;
     }
 
     .social-media .icons-group {
-        gap: 3vw;
+        gap: 3.33vw;
     }
 
     .icon-container {
-        gap: 2.4vw;
-        width: 8vw;
-        height: 8vw;
+        gap: 2.67vw;
+        width: 8.89vw;
+        height: 8.89vw;
     }
 
     .brand-icon {
-        font-size: 5vw;
+        font-size: 5.55vw;
     }
 
     .profile-image {
