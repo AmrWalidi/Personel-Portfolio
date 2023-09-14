@@ -169,7 +169,7 @@ nav a:hover p {
     }
 }
 
-@media screen and (max-width:500px) {
+@media screen and (max-width:450px) {
     nav .icon-container {
         width: 22vw;
         justify-content: space-evenly;

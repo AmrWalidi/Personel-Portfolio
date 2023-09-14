@@ -223,10 +223,12 @@
     .peresonel-infos {
         align-items: center;
         width: 73.33vw;
+        gap: 5.55vw;
     }
 
     .section-title {
         font-size: 4.44vw;
+        margin: 0;
     }
 
     .info-group {
@@ -271,6 +273,10 @@
         margin-left: 11.78vw;
     }
 
+    .skills-section {
+        margin-top: 13.33vw;
+    }
+
     .divider {
         width: 48.44vw;
         margin-bottom: 6.22vw;
@@ -279,7 +285,8 @@
     .skill-group {
         flex-direction: column;
         width: fit-content;
-        margin-top: 15.55vw;
+        gap: 9.78vw;
+        margin-top: 13.33vw;
     }
 
     .skill-percent-group {

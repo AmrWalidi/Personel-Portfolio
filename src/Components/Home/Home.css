@@ -222,7 +222,7 @@
 @media screen and (max-width:450px) {
     #home {
         padding-left: 0;
-        padding-top: 85px;
+        padding-top: 12.44vw;
     }
 
     .name {
@@ -244,10 +244,12 @@
     .intro p {
         width: 73.78vw;
         font-size: 3.56vw;
+        margin-top: 2.22vw;
+        margin-bottom: 0;
     }
 
     .social-media {
-        margin-top: 6.66vw;
+        margin-top: 11.1vw;
         padding-bottom: 22.22vw;
         width: fit-content;
     }
@@ -282,7 +284,7 @@
     }
 
     .profile-image {
-        margin-bottom: 20vw;
+        margin-bottom: 14.67vw;
     }
 
     .profile-image div {
