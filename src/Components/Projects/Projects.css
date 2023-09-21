@@ -1,0 +1,69 @@
+.slider {
+    background-image: linear-gradient(45deg, rgb(150, 16, 15, 0.96) 20%, #6E1012 80%);
+    padding: 100px;
+    overflow-x:hidden ;
+}
+
+.project-list {
+    display: flex;
+    gap: 50px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 570px;
+    border-radius: 20px;
+    background-color: white;
+    padding:0 15px ;
+}
+
+.image {
+    width: 530px;
+    height: 293px;
+    border-radius: 12px;
+    border: 1px solid black;
+    margin-top: 20px;
+
+}
+
+.card-context {
+    display: flex;
+    gap: 200px;
+    padding: 5px;
+    align-items: center;
+}
+
+.card p {
+    font-weight: 600;
+    text-transform: capitalize;
+    margin: 0;
+}
+
+.project-type {
+    font-size: 24px;
+
+}
+
+.side-text {
+    font-size: 18px;
+    color: #636363;
+}
+
+.openedLink-container {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #FF3636;
+    border: 1px solid black;
+}
+
+.openedLink-container .icon {
+    color: white;
+    font-size: 25px;
+}

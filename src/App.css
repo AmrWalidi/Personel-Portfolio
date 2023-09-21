@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 @import url('./Components/Home/Home.css');
 @import url('./Components/About/About.css');
+@import url('./Components/Projects/Projects.css');
 
 html {
     scroll-behavior: smooth;
