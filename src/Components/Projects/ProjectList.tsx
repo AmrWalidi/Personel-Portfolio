@@ -1,18 +1,27 @@
 import ProjectCard from "./ProjectCard";
 import { ProjectsDetails } from "../../Data";
+import { createContext } from "react";
 
-function ProjectsList() {
+interface componentProp {
+  title: string;
+  summary: string;
+  type: string;
+  languages: string;
+  URL: string;
+  image: string;
+}
+export const ProjectContext = createContext<componentProp | undefined>(
+  undefined
+);
+
+function ProjectsList({ setSelectedProject }) {
   return (
-    <div className="project-list">
-      {ProjectsDetails.map((pro) => (
+    <div id="project-list" className="project-list">
+      {ProjectsDetails.map((project) => (
         <ProjectCard
-          key={pro.title}
-          title={pro.title}
-          summary={pro.summary}
-          languages={pro.languages}
-          type={pro.type}
-          URL={pro.URL}
-          image={pro.image}
+          key={project.title}
+          pro={project}
+          setSelectedProject={setSelectedProject}
         />
       ))}
     </div>

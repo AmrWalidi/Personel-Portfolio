@@ -1,25 +1,19 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowUpRightFromSquare } from "@fortawesome/free-solid-svg-icons";
 
-interface ProjectObj {
-  title: string;
-  summary: string;
-  type: string;
-  languages: string;
-  URL: string;
-  image: string;
-}
-
-function ProjectCard(project: ProjectObj) {
+function ProjectCard({ pro, setSelectedProject }) {
   return (
-    <div className="card">
-      <img className="image" src={project.image} alt={project.title} />
+    <div id="card" className="card">
+      <img className="image" src={pro.image} alt={pro.title} />
       <div className="card-context">
         <div>
-          <p className="project-type">{project.type + " project"}</p>
+          <p className="project-type">{pro.type + " project"}</p>
           <p className="side-text">Click to view</p>
         </div>
-        <div className="openedLink-container">
+        <div
+          className="openedLink-container"
+          onClick={() => setSelectedProject(pro)}
+        >
           <FontAwesomeIcon className="icon" icon={faArrowUpRightFromSquare} />
         </div>
       </div>

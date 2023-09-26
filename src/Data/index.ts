@@ -87,11 +87,11 @@ export const skills: skillObj[] = [
         percentage: 85
     },{
         name:"Python",
-        percentage: 60
+        percentage: 30
     },
 ]
 
-interface ProjectsObj {
+export interface ProjectsObj {
     title: string;
     summary: string;
     type: string;
@@ -115,7 +115,7 @@ export const ProjectsDetails: ProjectsObj[] =[
         summary:"Real life calculator project that calculates basic arithmetic expressions using the essentials of how calculator works using the prefix method.",
         type: "Website",
         languages: "HTML, CSS, JavaScript",
-        URL: "192.168.1.21/calculator",
+        URL: "http://192.168.1.21/Calculator/",
         image: "Images/calculator.png"
     }
     ,
@@ -124,7 +124,7 @@ export const ProjectsDetails: ProjectsObj[] =[
         summary:"A mock e-commerce project that sales smartphones and have a real login and sign in features that save the data in a database and can retrieve it.",
         type: "Website",
         languages: "HTML, CSS, PHP, MySQL",
-        URL: "192.168.1.21/smarttel",
+        URL: "http://192.168.1.21/smarttel",
         image: "Images/SmartTel.png"
     }
 ]
