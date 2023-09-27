@@ -13,7 +13,7 @@ function Projects() {
     const dots = document.querySelectorAll(".dot");
     const slide = document.getElementById("project-list");
     if (slide != null) {
-      slide.style.transform = "translateX(-" + index * 20 + "%)";
+      slide.style.transform = "translateX(-" + index * 40 + "%)";
     }
     dots.forEach((x) => x.classList.remove("dot-active"));
     e.currentTarget.classList.add("dot-active");

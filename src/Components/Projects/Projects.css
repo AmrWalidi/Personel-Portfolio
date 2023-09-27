@@ -22,7 +22,7 @@
     width: 0.65vw;
     height: 0.65vw;
     border-radius: 50%;
-    border: 0.13vw solid #D9D9D9;
+    border: 1px solid #D9D9D9;
     background-color: transparent;
     cursor: pointer;
     transition: width 0.2s, backgroundColor;
@@ -108,6 +108,7 @@
     position: absolute;
     right: 1%;
     top: 2%;
+    cursor: pointer;
 }
 
 .popup-card-content {
@@ -143,4 +144,193 @@
     padding-left: 0.65vw;
     text-decoration: none;
     color: black;
+}
+
+@media screen and (max-width: 900px){
+    .slider {
+        padding: 11.11vw 5.55vw 5.55vw;
+    }
+    
+    .project-list {
+        gap: 3.77vw;
+    }
+    
+    .slider-indicator {
+        gap: 1.56vw;
+        margin-top: 8.22vw;
+    }
+    
+    .dot {
+        width: 1.67vw;
+        height: 1.67vw;
+    }
+    
+    .dot-active {
+        width: 3.33vw;
+        border-radius: 2.22vw;
+    }
+    
+    .card {
+        width: 37.1vw;
+        border-radius: 1.11vw;
+        padding: 0 2.11vw;
+    }
+    
+    .image {
+        width: 35.56vw;
+        height: 31.11vw;
+        border-radius: 0.56vw;
+        margin-top: 2.22vw;
+    }
+    
+    .card-context {
+        gap: 10.56vw;
+        padding: 2.11vw 0;
+    }
+    
+    .project-type {
+        font-size: 2.22vw;
+    }
+    
+    .side-text {
+        font-size: 2vw;
+    }
+    
+    .openedLink-container {
+        width: 6.11vw;
+        height: 6.11vw;
+    }
+    
+    .openedLink-container .icon {
+        font-size: 2.77vw;
+    }
+    
+    .popup-card {
+        width: 68vw;
+        padding: 1.11vw;
+        border-radius: 0.56vw;
+    }
+    
+    .x-mark {
+        right: 2%;
+        top:1%
+    }
+    
+    .popup-card-content {
+        align-items: center;
+        flex-direction: column;
+        gap: 3.33vw;
+    }
+    
+    .popup-card img {
+        width: 68vw;
+        height: 40vw;
+        margin-top: 2.22vw;
+    }
+    
+    .project-title {
+        font-size: 2.77vw;
+    }
+    
+    .project-summary {
+        margin-bottom: 3.25vw;
+    }
+    
+    .project-lower-list {
+        position: relative;
+        margin-top: 5.56vw;
+    }
+}
+
+@media screen and (max-width: 450px){
+    .slider {
+        padding: 5.55vw;
+    }
+    
+    .project-list {
+        gap: 7.33vw;
+    }
+    
+    .slider-indicator {
+        gap: 2.22vw;
+        margin-top: 6vw;
+    }
+    
+    .dot {
+        width: 2.22vw;
+        height: 2.22vw;
+    }
+    
+    .dot-active {
+        width: 4.44vw;
+        border-radius: 4.44vw;
+    }
+    
+    .card {
+        width: 50vw;
+        border-radius: 2.22vw;
+        padding: 0 2.78vw;
+    }
+    
+    .image {
+        width: 44.44vw;
+        height: 48.8vw;
+        border-radius: 1.11vw;
+        margin-top: 2.88vw;
+    }
+    
+    .card-context {
+        gap: 6.67vw;
+        padding: 6vw 0;
+    }
+    
+    .project-type {
+        font-size: 3.33vw;
+    }
+    
+    .side-text {
+        font-size: 2.67vw;
+    }
+    
+    .openedLink-container {
+        width: 7.78vw;
+        height: 7.78vw;
+    }
+    
+    .openedLink-container .icon {
+        font-size: 3.5vw;
+    }
+    
+    .popup-card {
+        width: 75.5vw;
+        padding: 2.22vw;
+        border-radius: 1.11vw;
+    }
+    
+    .x-mark {
+        right: 2%;
+        top:1%
+    }
+    
+    .popup-card-content {
+        gap: 3.33vw;
+    }
+    
+    .popup-card img {
+        width: 73vw;
+        height: 50vw;
+        margin-top: 4.44vw;
+    }
+    
+    .project-title {
+        font-size: 4.44vw;
+    }
+    
+    .project-summary {
+        margin-bottom: 10vw;
+    }
+    
+    .project-lower-list {
+        margin-top: 5.56vw;
+    }
 }

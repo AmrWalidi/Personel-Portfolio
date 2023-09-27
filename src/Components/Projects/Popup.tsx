@@ -1,8 +1,8 @@
+import { useEffect } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faXmark } from "@fortawesome/free-solid-svg-icons";
-import { useEffect } from "react";
 
-function Popup({ setSelectedProject, pro }) {
+function Popup({ setSelectedProject, pro}) {
   useEffect(() => {
     const pop = document.getElementById(pro.title);
     if (pop != null) {
