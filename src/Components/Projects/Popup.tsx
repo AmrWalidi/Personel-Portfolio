@@ -1,8 +1,9 @@
 import { useEffect } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faXmark } from "@fortawesome/free-solid-svg-icons";
+import { componentProp } from "./ProjectCard";
 
-function Popup({ setSelectedProject, pro}) {
+function Popup({ setState, pro} : componentProp) {
   useEffect(() => {
     const pop = document.getElementById(pro.title);
     if (pop != null) {
@@ -12,7 +13,7 @@ function Popup({ setSelectedProject, pro}) {
   return (
     <div id={pro.title} className="popup-card">
       <FontAwesomeIcon
-        onClick={() => setSelectedProject(undefined)}
+        onClick={() => setState(undefined)}
         className="x-mark"
         icon={faXmark}
       />

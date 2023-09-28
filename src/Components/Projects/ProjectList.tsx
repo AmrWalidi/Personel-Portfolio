@@ -1,27 +1,20 @@
 import ProjectCard from "./ProjectCard";
 import { ProjectsDetails } from "../../Data";
-import { createContext } from "react";
+import { ProjectsObj } from "../../Data";
 
-interface componentProp {
-  title: string;
-  summary: string;
-  type: string;
-  languages: string;
-  URL: string;
-  image: string;
+interface componentProp{
+  setState : React.Dispatch<React.SetStateAction<ProjectsObj | undefined>>
 }
-export const ProjectContext = createContext<componentProp | undefined>(
-  undefined
-);
 
-function ProjectsList({ setSelectedProject }) {
+
+function ProjectsList({setState} :componentProp) {
   return (
     <div id="project-list" className="project-list">
       {ProjectsDetails.map((project) => (
         <ProjectCard
           key={project.title}
           pro={project}
-          setSelectedProject={setSelectedProject}
+          setState={setState}
         />
       ))}
     </div>

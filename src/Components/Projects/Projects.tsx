@@ -23,7 +23,7 @@ function Projects() {
     <div id="projects">
       <Header backgroundText="Projects" title="Recent Work" />
       <div className="slider">
-        <ProjectsList setSelectedProject={setSelectedProject} />
+        <ProjectsList setState={setSelectedProject} />
         <div className="slider-indicator">
           {ProjectsDetails.map((x, index) => (
             <div
@@ -35,7 +35,7 @@ function Projects() {
         </div>
       </div>
       {selectedProject != undefined && (
-        <Popup setSelectedProject={setSelectedProject} pro={selectedProject} />
+        <Popup setState={setSelectedProject} pro={selectedProject} />
       )}
     </div>
   );
