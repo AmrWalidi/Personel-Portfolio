@@ -25,7 +25,7 @@ function Projects() {
       <div className="slider">
         <ProjectsList setState={setSelectedProject} />
         <div className="slider-indicator">
-          {ProjectsDetails.map((x, index) => (
+          {ProjectsDetails.map((_, index) => (
             <div
               key={index}
               className={"dot" + (index === 0 ? " dot-active" : "")}
