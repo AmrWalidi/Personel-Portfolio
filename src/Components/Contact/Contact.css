@@ -1,0 +1,42 @@
+.contact-section-content{
+    display: flex;
+    gap: 60px;
+}
+
+.side-info-list{
+    display: flex;
+    flex-direction: column;
+    gap: 70px;
+    margin-left: 110px;
+}
+
+.side-info {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.side-info-icon-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #FF3636;
+}
+
+.side-info-icon {
+    font-size: 20px;
+    color: white;
+}
+
+.info-title{
+    font-size: 28px;
+}
+
+.info-answer{
+    font-size: 20px;
+    color: #686868;
+    width: 370px;
+}

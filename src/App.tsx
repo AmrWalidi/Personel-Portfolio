@@ -2,6 +2,7 @@ import NavBar from "./Components/NavBar";
 import Home from "./Components/Home/Home";
 import About from "./Components/About/About";
 import Projects from "./Components/Projects/Projects";
+import Contact from "./Components/Contact/Contact";
 import "./App.css";
 
 export default function App() {
@@ -11,6 +12,7 @@ export default function App() {
       <Home />
       <About />
       <Projects />
+      <Contact/>
     </>
   );
 }
