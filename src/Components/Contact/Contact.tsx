@@ -4,6 +4,7 @@ import "./Contact.css";
 import Form from "./Form";
 
 function Contact() {
+  
   return (
     <div id="contact">
       <Header title="GET IN TOUCH" backgroundText="CONTACT" />

@@ -1,9 +1,13 @@
-.contact-section-content{
+#contact {
+    margin-bottom: 50px;
+}
+
+.contact-section-content {
     display: flex;
     gap: 60px;
 }
 
-.side-info-list{
+.side-info-list {
     display: flex;
     flex-direction: column;
     gap: 70px;
@@ -16,7 +20,7 @@
     align-items: center;
 }
 
-.side-info-icon-container {
+.contact-icon-container {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -26,17 +30,103 @@
     background-color: #FF3636;
 }
 
-.side-info-icon {
+.contact-icon {
     font-size: 20px;
     color: white;
 }
 
-.info-title{
+.info-title {
     font-size: 28px;
 }
 
-.info-answer{
+.info-answer {
     font-size: 20px;
     color: #686868;
     width: 370px;
+}
+
+input {
+    font-size: 24px;
+    height: 60px;
+    border-radius: 35px;
+    border: 1px solid black;
+    padding-left: 20px;
+    margin: 10px 0;
+    background-color: #F6F6F6;
+}
+
+input:focus-visible {
+    background-color: #fefefe;
+}
+
+input::placeholder {
+    color: #808080;
+    font-size: 24px;
+}
+
+.top-inputs {
+    display: flex;
+    gap: 44px;
+}
+
+.top-inputs input {
+    width: 355px;
+}
+
+input[name="subject"],
+input[name="message"] {
+    display: block;
+    width: 774px;
+}
+
+input[name="message"] {
+    height: 258px;
+}
+
+input[name="message"]::placeholder {
+    position: absolute;
+    top: 10%;
+}
+
+.submit-button-container {
+    position: relative;
+    width: 250px;
+    height: 50px;
+    border: 1px solid #FF3636;
+    border-radius: 35px;
+    overflow: hidden;
+    box-shadow: 1px 1px 5px rgb(125, 125, 125);
+    cursor: pointer;
+}
+
+.loading-bar {
+    position: absolute;
+    top: 0;
+    width: 0;
+    height: 50px;
+    background-color: #FF3636;
+    z-index: -1;
+    transition: width 0.5s;
+}
+
+.submit-button-container:hover .loading-bar {
+    width: 250px;
+}
+
+.submit-button {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.submit-button p {
+    color: #686868;
+    width: fit-content;
+    margin:0 25px;
+    
+}
+
+.submit-button-container:hover .submit-button p {
+    color: white;
 }

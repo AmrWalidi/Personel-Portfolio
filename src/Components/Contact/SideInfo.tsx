@@ -10,8 +10,8 @@ interface componentProp {
 function SideInfo({ icon, title, info }: componentProp) {
   return (
     <div className="side-info">
-      <div className="side-info-icon-container ">
-        <FontAwesomeIcon className="side-info-icon" icon={icon} />
+      <div className="contact-icon-container ">
+        <FontAwesomeIcon className="contact-icon" icon={icon} />
       </div>
       <div>
         <div className="info-title">{title}</div>
