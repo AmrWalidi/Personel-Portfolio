@@ -1,6 +1,6 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faPaperPlane } from "@fortawesome/free-solid-svg-icons";
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 
 function Form() {
   const [formData, setFormData] = useState({
@@ -11,7 +11,6 @@ function Form() {
   });
 
   const [errors, setErrors] = useState({
-    count: 0,
     name: false,
     email: false,
     message: false,
@@ -19,19 +18,21 @@ function Form() {
 
   const [valideForm, setValideForm] = useState(false);
 
+  const counter = useRef(0);
+
   useEffect(() => {
-    if (errors.count !== 0) {
+    if (counter.current !== 0) {
       setValideForm(!(errors.name || errors.email || errors.message));
     }
   }, [errors]);
 
   const handleSbmit = () => {
     setErrors({
-      count: 1,
       name: formData.name.length === 0,
       email: formData.email.length === 0 || !formData.email.includes("@"),
       message: formData.message.length === 0,
     });
+    counter.current = 1;
   };
 
   function handleChange(event: React.ChangeEvent<HTMLInputElement>) {
