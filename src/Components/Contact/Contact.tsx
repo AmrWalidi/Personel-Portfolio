@@ -1,6 +1,5 @@
 import Header from "../Header";
 import SideInfoList from "./SideInfoList";
-import "./Contact.css";
 import Form from "./Form";
 
 function Contact() {

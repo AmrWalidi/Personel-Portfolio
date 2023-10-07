@@ -2,6 +2,7 @@
 @import url('./Components/Home/Home.css');
 @import url('./Components/About/About.css');
 @import url('./Components/Projects/Projects.css');
+@import url('./Components/Contact/Contact.css');
 
 html {
     scroll-behavior: smooth;
