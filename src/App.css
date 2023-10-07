@@ -112,6 +112,16 @@ nav a:hover p {
     background-color: #FF0707;
 }
 
+footer{
+    padding: 1.3vw 0;
+}
+
+footer p{
+    margin: 0;
+    text-align: center;
+    font-size: 0.8rem;
+}
+
 @media screen and (max-width:900px) {
     nav {
         top: 30px;
@@ -173,6 +183,11 @@ nav a:hover p {
     .title::after{
         width: 7.77vw;
     }
+
+    footer{
+        padding: 2.22vw 0;
+    }
+    
 }
 
 @media screen and (max-width:450px) {
@@ -223,5 +238,9 @@ nav a:hover p {
     .title::after{
         width: 14vw;
         height: 0.4vw;
+    }
+
+    footer{
+        padding: 4.44vw 0;
     }
 }

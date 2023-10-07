@@ -1,5 +1,5 @@
 #contact {
-    margin-bottom: 3.26vw;
+    margin-bottom: 13vw;
 }
 
 .contact-section-content {
@@ -165,7 +165,7 @@ input[name="message"]::placeholder {
 
 @media screen and (max-width:900px) {
     #contact {
-        margin-bottom: 5.56vw;
+        margin-bottom: 22.2vw;
     }
 
     .contact-section-content {
@@ -267,7 +267,7 @@ input[name="message"]::placeholder {
 
 @media screen and (max-width:450px) {
     #contact {
-        margin-bottom: 11.1vw;
+        margin-bottom: 30vw;
     }
 
     .contact-section-content {
