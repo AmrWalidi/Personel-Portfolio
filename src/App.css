@@ -13,6 +13,7 @@ html {
 }
 
 body {
+    background-color: #F1FAEE;
     font-family: 'Poppins', sans-serif;
     margin: 0;
 }
@@ -48,12 +49,12 @@ nav a:hover .icon-container {
 }
 
 nav a:hover .menu-icon {
-    color: white;
+    color: #F1FAEE;
 }
 
 .icon-container p {
     display: none;
-    color: white;
+    color: #F1FAEE;
     font-size: 16px;
     text-transform: uppercase;
 }
@@ -71,7 +72,7 @@ nav a:hover p {
 }
 
 .active-menu .menu-icon {
-    color: white;
+    color: #F1FAEE;
 }
 
 .header{

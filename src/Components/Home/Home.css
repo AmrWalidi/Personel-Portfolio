@@ -7,7 +7,7 @@
 }
 
 .name {
-    color: white;
+    color: #F1FAEE;
     font-size: 4.55vw;
     font-weight: 600;
     text-transform: uppercase;
@@ -33,7 +33,7 @@
 
 .intro p {
     width: 40.56vw;
-    color: white;
+    color: #F1FAEE;
     font-size: 1.56vw;
     margin-right: 0;
 }
@@ -57,13 +57,13 @@
 }
 
 .arrow {
-    color: white;
+    color: #F1FAEE;
     font-size: 1vw;
 }
 
 .follow-me p {
     width: fit-content;
-    color: white;
+    color: #F1FAEE;
     font-size: 1vw;
     font-weight: 500;
     text-transform: uppercase;
@@ -90,7 +90,7 @@
 }
 
 .brand-icon {
-    color: white;
+    color: #F1FAEE;
     font-size: 2vw;
 }
 
