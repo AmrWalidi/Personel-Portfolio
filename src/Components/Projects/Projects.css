@@ -40,7 +40,7 @@
     align-items: center;
     width: 37.1vw;
     border-radius: 1.3vw;
-    background-color: white;
+    background-color: #F1FAEE;
     padding: 0 0.98vw;
 }
 
@@ -87,7 +87,7 @@
 }
 
 .openedLink-container .icon {
-    color: white;
+    color: #F1FAEE;
     font-size: 1.63vw;
 }
 
@@ -98,7 +98,7 @@
     transform: translate(-50%, 0);
     width: 65.1vw;
     padding: 1.3vw;
-    background-color: #ffffff;
+    background-color: #F1FAEE;
     box-shadow: 1px 1px 10px black;
     border-radius: 0.65vw;
     z-index: 1;
