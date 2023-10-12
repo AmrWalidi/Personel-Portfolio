@@ -107,7 +107,7 @@ export const ProjectsDetails: ProjectsObj[] =[
         type: "Website",
         languages: "HTML, CSS, PHP",
         URL: "https://yemenddd.org/",
-        image: "/yemenddd.png"
+        image: "./yemenddd.png"
     }
 ,
     {
@@ -116,7 +116,7 @@ export const ProjectsDetails: ProjectsObj[] =[
         type: "Website",
         languages: "HTML, CSS, JavaScript",
         URL: "http://192.168.1.21/Calculator/",
-        image: "/calculator.png"
+        image: "./calculator.png"
     }
     ,
     {
@@ -125,6 +125,6 @@ export const ProjectsDetails: ProjectsObj[] =[
         type: "Website",
         languages: "HTML, CSS, PHP, MySQL",
         URL: "http://192.168.1.21/smarttel",
-        image: "/SmartTel.png"
+        image: "./SmartTel.png"
     }
 ]

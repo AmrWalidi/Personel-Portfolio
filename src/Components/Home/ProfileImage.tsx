@@ -64,7 +64,7 @@ function ProfileImage() {
         />
       </svg>
       <div>
-        <img src="/potrait.png" alt="My Portrait" />
+        <img src="./potrait.png" alt="My Portrait" />
       </div>
     </div>
   );
